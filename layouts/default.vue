@@ -1,7 +1,5 @@
 <template>
   <div class="flex flex-col justify-between h-full pt-10 pb-4">
-    <h1>Layout</h1>
-    <p>Height: {{ height }}</p>
     <div class="h-full overflow-hidden flex flex-col flex-1">
       <slot></slot>
     </div>
