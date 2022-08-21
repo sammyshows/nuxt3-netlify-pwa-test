@@ -11,8 +11,6 @@ export default defineNuxtConfig({
     },
 
     modules: [
-        '@nuxtjs/tailwindcss',
-        '@pinia/nuxt',
         '@kevinmarrec/nuxt-pwa'
     ],
 
@@ -45,8 +43,7 @@ export default defineNuxtConfig({
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap' }
         ],
         script: [
-            { src: 'https://cdn.jsdelivr.net/npm/big.js@6.2.0/big.min.js' },
-            { src: './js/polyfills.js' }
+            { src: 'https://cdn.jsdelivr.net/npm/big.js@6.2.0/big.min.js' }
         ]
     }
 })
